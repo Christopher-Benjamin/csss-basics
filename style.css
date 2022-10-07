@@ -1,0 +1,48 @@
+
+/*Common CSS Properties:
+color: sets the color of the text
+background-color: sets the background color of the text
+width: sets the width of an element
+height
+border
+font-size, font-weight, font-family
+
+h1 {
+    //you can set color with words, RGB, or hex 
+    background-color: lightgray;
+    color: rgba(255, 153, 0, 0.8);
+}
+
+div {
+    width: 100%;
+    max-width: 400px;
+    height: 90vw;
+    border: 2px solid black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+*/
+
+/*IDs are more specific than class, classes are more specific then elements */
+section {
+    height: 80vh;
+    border: 1px solid black;
+}
+
+/* "!important" are the highest speceficity */
+p {
+    color: blue !important;
+}
+
+.red {
+    color: red;
+
+}
+
+#title {
+    color: black;
+}
+
+
+
